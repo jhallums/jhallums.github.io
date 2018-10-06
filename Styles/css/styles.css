@@ -1,16 +1,28 @@
 
+li {
+    font-size: 20px;
 
+}
+h1 {color: rgb(66, 5, 5);
+    font-family: cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
 
+em {
+    font-size: 20px;
+    
+}
 
-body {background-color: rgba(157, 163, 163, 0.425);
+body {background-color: rgba(109, 201, 201, 0.425);
     color: gray (4, 41, 48);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
- }   font-weight: bold;
+    font-weight: bold;
     line-height: 2.0em
 }
 .container{
-    widows: 80%;;
+    widows: 80%;
     margin: auto;
 }
 
@@ -23,5 +35,16 @@ body {background-color: rgba(157, 163, 163, 0.425);
     padding: 20px;
 
     margin: 20px;
+
+}
+
+.box-2{
+    background-color: rgb(92, 89, 89);
+    color: grey;
+    border: 5px rgb(26, 24, 46) solid;
+    border-width: 3px;
+    text-underline-position: below
+
     
+
 }
