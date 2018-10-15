@@ -4,9 +4,14 @@ li {
 
 }
 h1 {color: rgb(66, 5, 5);
+    text-underline-position: below;
     font-family: cursive;
     font-size: 45px;
     font-weight: bold;
+}
+
+img {
+    border: 5px solid black;
 }
 
 em {
