@@ -2,6 +2,8 @@
 li {
     font-size: 20px;
 
+
+
 }
 h1 {color: rgb(66, 5, 5);
     text-underline-position: below;
@@ -26,7 +28,9 @@ table, th, td {
     }
 
 
-body {background-color: rgba(109, 201, 201, 0.425);
+body {background-image: url("../../Images/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
     color: gray (4, 41, 48);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -39,11 +43,11 @@ body {background-color: rgba(109, 201, 201, 0.425);
 }
 
 .box-1{
-    background-color: rgb(9, 51, 4);
+    background-color: rgb(94, 110, 92);
     text-align: center;
     color: whitesmoke;
-    padding: 5px;
-    margin: auto;
+    padding: 2px;
+    margin: 2px;
 }
 
 .box-2{
@@ -55,27 +59,6 @@ body {background-color: rgba(109, 201, 201, 0.425);
     text-underline-position: below
 }
 
-a {
-    font-family: 'Mali', cursive;
-    display: inline-block;
-    padding: 5px 25px;
-    margin: 10px 10px;
-    width:300px;
-    font-size: 18px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #3A3335;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 4px 8px 18px #888888;
-    background: rgb(163, 167, 165); /* Old browsers */
-    background: -moz-linear-gradient(top, red 0%, orange 47%, yellow 100%);
-    background: -webkit-linear-gradient(top, red 0%,orange 47%,yellow 100%);
-    background: linear-gradient(to bottom, red 0%,Orange 47%,yellow 100%);
-  }
-  
   a:hover {
   color: #505168;
   background: #a1dbff; /* Old browsers */
