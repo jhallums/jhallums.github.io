@@ -2,22 +2,34 @@
 li {
     font-size: 20px;
 
-
-
 }
 h1 {color: rgb(66, 5, 5);
+    text-align: center;
     text-underline-position: below;
     font-family: fantasy;
     font-size: 45px;
-    font-weight: bold;
+    text-shadow: 3px 2px rgb(105, 64, 199);
+    
+}
+
+p.one {
+    text-underline-position: below;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(4, 1, 12);
+    
 }
 
 
-h2 {color: blue;
+h2 {color: rgb(0, 2, 10);
+    text-align: center;
     background: linear-gradient(to bottom, #a1dbff 0%,#cbebff 53%,#89C6B0 100%);
     font-family: fantasy;
     font-size: 30px;
     font-weight: bold;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(72, 38, 105);
     }
 
 img {
@@ -38,7 +50,7 @@ table, th, td {
 
 body {background-image: url("../../Images/north-cascades.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: gray (4, 41, 48);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -52,19 +64,22 @@ body {background-image: url("../../Images/north-cascades.jpg");
 
 .box-1{
     background: linear-gradient(to bottom, #a1dbff 0%,#cbebff 53%,#89C6B0 100%);
+    font-family: fantasy;
     text-align: center;
-    color: whitesmoke;
-    padding: 2px;
-    margin: 2px;
+    border: 1px solid rgb(0, 255, 191);
+    outline-style: solid;
+    outline-color: invert;
+    color: grey;
 }
 
 .box-2{
     background: linear-gradient(to bottom, #a1dbff 0%,#cbebff 53%,#89C6B0 100%);
     font-family: fantasy;
     text-align: center;
+    border: 1px solid rgb(0, 255, 191);
+    outline-style: solid;
+    outline-color: invert;
     color: grey;
-    border-width: 3px;
-    text-underline-position: below
 }
 
   a:hover {
@@ -76,7 +91,7 @@ body {background-image: url("../../Images/north-cascades.jpg");
   }
   
   a:active {
-    background-color: #3e8e41;
+    background-color: #1b351c;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
     
